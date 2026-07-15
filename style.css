@@ -1,10 +1,17 @@
-h1{
-    text-shadow: 2px 2px 5px red, -2px -2px 5px rgb(76, 0, 255);
+body{
+    margin: 0px;
 }
-
+.box{
+    border: 5px solid;
+    font-size: 3em;
+    width: 150px;
+    height: 150px;
+    margin-left: auto;
+    margin-top: 50px;
+}
 #box1{
-    width: 100px;
-    height: 100px;
-    background-color: rgba(209, 16, 16, 0.164);
-    box-shadow: 3px 3px 5px;
+    background-color: red;
+}
+#box2{
+    background-color: blue;
 }
