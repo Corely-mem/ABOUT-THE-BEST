@@ -1,5 +1,18 @@
-div{
-    border: 2px solid;
-    height: 75px;
-    overflow: scroll;
+
+.container{
+    background-color: rgb(138, 19, 185);
+    height: 100vh;
+}
+
+
+.box{
+    border: solid 2px;
+    padding: 25px;
+    box-sizing: border-box;
+    height: auto;
+    width: 50%;
+    float: left;
+    text-align: center;
+
+    min-width: 100%;
 }
