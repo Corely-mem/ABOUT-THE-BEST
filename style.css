@@ -1,27 +1,22 @@
 
-.container{
-    display: flex;
-    border: 10px solid black;
-    height: 90vh;
-    flex-wrap: wrap;
-    align-content: flex-start;
+body{
+    margin: 0px;
 }
 .box{
     width: 100px;
     height: 100px;
-    font-size: 4em;
+    border: 5px solid;
+    font-size: 5em;
     text-align: center;
-    border-radius: 15px;
+
+    transform: translate(80px) rotateZ(45deg) scale(0.5);
 }
 #box1{
-    background-color: red;
+    background-color: lime;
 }
 #box2{
-    background-color: yellow;
+    background-color: red;
 }
 #box3{
-    background-color: green;
-}
-#box4{
     background-color: blue;
 }
