@@ -1,0 +1,18 @@
+
+/* WEBSITE */
+
+.website{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+header{
+    background-color: black;
+    color: white;
+    padding-left: 2rem;
+    padding-top: 3rem;
+}
+.Header-headings{
+    font-family: 'Courier New', Courier, monospace;
+}
