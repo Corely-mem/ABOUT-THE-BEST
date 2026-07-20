@@ -24,7 +24,7 @@ header{
     padding-left: 2rem;
     padding-top: 1rem;
     width: 100%;
-    min-height: 55vh;
+    min-height: 90vh;
 }
 .Header-headings{
     font-family: 'Courier New', Courier, monospace;
@@ -40,4 +40,22 @@ header{
     font-family: 'Courier New', Courier, monospace;
     font-size: clamp(1rem, 2vw, 2rem);
     margin-top: 3rem;
+}
+.header-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 0%;
+    gap: 1rem;
+    margin-left: 45vw;
+    margin-top: -32vh;
+}
+.header-grid-images{
+    width: 20vw;
+    height: 15vw;
+    border-radius: 25px;
+}
+.header-grid-images:hover{
+    transform: scale(1.1);
+    border: 2px solid green;
+    box-shadow: 0px 0px 3px green;
 }
