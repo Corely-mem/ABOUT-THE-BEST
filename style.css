@@ -1,18 +1,43 @@
 
 /* WEBSITE */
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+
+}
 .website{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    gap: 25px;
 }
+
+/* HEADER */
+
 header{
     background-color: black;
     color: white;
     padding-left: 2rem;
-    padding-top: 3rem;
+    padding-top: 1rem;
+    width: 100%;
+    min-height: 55vh;
 }
 .Header-headings{
     font-family: 'Courier New', Courier, monospace;
+    font-size: clamp(1rem, 5vw, 3rem);
+    margin-top: 2rem;
+}
+.Header-para{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: clamp(1rem, 2vw, 2rem);
+    margin-top: .5rem;
+}
+#Corely-mem{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: clamp(1rem, 2vw, 2rem);
+    margin-top: 3rem;
 }
