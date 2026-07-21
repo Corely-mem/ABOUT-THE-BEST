@@ -105,12 +105,26 @@ header{
     margin-top:1.5rem;
     margin-left: 2rem;
 }
-#Cplusplus{
+.main-about-me{
     display: flex;
     flex-wrap: wrap;
-    width: 20rem;
-    max-width: 40rem;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    padding: 2rem;
+}
+#Cplusplus{
+    width: 100%;
+    max-width: 22rem;
     height: auto;
-    margin-left: 55rem;
-    margin-top: -25rem;
+    object-fit: contain;
+}
+@media (max-width: 850px) {
+    .main-about-me {
+        justify-content: center;
+    }
+    
+    #Cplusplus {
+        margin-top: 3rem;
+    }
 }
