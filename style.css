@@ -151,14 +151,11 @@ header{
     margin-top:1.5rem;
     margin-left: 2rem;
 }
-.image{
-    width: 100%;
-    max-width: 250px;
-    height: auto;
-}
-.rtx-5090{
-    max-width: 50rem;
-    height: auto;
+.Main-sub-headings{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    padding: 3rem;
 }
 .image{
     display: grid;
@@ -169,8 +166,8 @@ header{
 }
 .rtx-5090{
     width:100%;
-    max-width:500px;
-    aspect-ratio:1/1;
+    max-width:300px;
+    aspect-ratio:5/4;
     object-fit:cover;
     border-radius:25px;
 }
