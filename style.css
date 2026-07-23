@@ -8,7 +8,10 @@
 }
 body{
     margin: 0px;
-
+}
+body::selection{
+    background-color: black;
+    color: rgb(25, 202, 25);
 }
 .website{
     display: flex;
@@ -195,6 +198,7 @@ header{
     align-items: center;
     justify-content: space-between;
     gap: 3rem;
+    padding: 1rem;
 }
 @media (max-width: 1024px){
     .main-reverse{
