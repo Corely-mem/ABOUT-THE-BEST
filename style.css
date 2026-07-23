@@ -246,3 +246,6 @@ header{
     font-weight: 500;
     text-decoration: none;
 }
+#game{
+    text-decoration: dashed;
+}
